@@ -41,7 +41,7 @@ class BlogContentFetcher:
             if not os.path.exists(directory_path):
                 os.makedirs(directory_path)
 
-            with open(f'{directory_path}/{main_title}___{link.split("/")[-1]}.txt', 'w') as f:
+            with open(f'{directory_path}/{main_title.replace("/", "_")}___{link.split("/")[-1]}.txt', 'w') as f:
                 f.write(main_text)
 
             return True
