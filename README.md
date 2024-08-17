@@ -10,3 +10,7 @@
 - [ ] Logging 추가
 - [ ] 라이브러리로 만들어보기
 - [ ] Naver API 사용
+
+## process_blog_posts
+
+- upstage credit 약 1달러정도 소모
